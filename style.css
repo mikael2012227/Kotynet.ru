@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&family=Comic+Relief:wght@400;700&family=Great+Vibes&family=Pacifico&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+html,
+body {
+    margin: 0;
+    font-family: Chiron GoRound TC;
+    font-weight: 500;
+    background-color: #f4e1d2;
+    color: #4a5568;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.navbar {
+    background-color: #4a5568;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 2px black;
+}
+
+.navbar-brand {
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.navbar-item {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: 500;
+    /* gap:30px; */
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: 80px;
+}
+
+.mobile-menu-toggle{
+    background-color: #e76f51;
+    border:0;
+}
+.mobile-menu-toggle_hidden{
+    background-color: #e76f51;
+    border:0;
+    display: none;
+}
+
+/* .navbar-center{
+   margin-right: 10px;
+} */
+
+footer {
+    margin-top: 15px;
+    border-top: 2px solid black;
+    background-color: #4a5568;
+    color: #ffffff;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 0px 50px;
+    text-align: center;
+}
+
+#developer {
+    color: #000000;
+    background-color: #e76f51;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700px;
+}
+
+.navbar-item:hover {
+    font-weight: 800;
+}
+
+.heh img {
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.hist {
+    margin: 20px;
+    text-align: center;
+}
+
+.banner-content {
+    background-image: url("img/photo_2025-09-09_13-29-17.jpg");
+    width: 100%;
+    height: 700px;
+    
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 70px;
+    grid-area: title;
+}
+
+.banner {
+    width: 100%;
+    height: 80%;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+    position: relative;
+    height: 400px;
+    width: 650px;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.slides {
+    display: flex;
+    /* height: 600px; */
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 100%;
+    display: block;
+    flex-shrink: 0;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.preview {
+    position: absolute;
+    top: 50%;
+    background-color: #000000;
+    color: #ffffff;
+    left: 5px;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #e76f51;
+    border: 0;
+}
+
+.next {
+    position: absolute;
+    top: 50%;
+    background-color: #000000;
+    color: #ffffff;
+    right: 5px;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #e76f51;
+    border: 0;
+}
+
+
+
+.text-history {
+    grid-area: content;
+}
+
+.history-columns img {
+    width: 400px;
+}
+
+.info-kotynet p {
+    font-size: 20px;
+}
+
+.info-kotynet{
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 400px 700px;
+    grid-template-rows: 200px 200px;
+    gap:80px;
+    font-size: 35px;
+    grid-template-areas:
+    "title img"
+    "content img"
+    ;
+}
+
+.info-title {
+    grid-area: title;
+
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    grid-area: img;
+}
+
+
+.history-info {
+    font-size: 35px;
+}
+
+.history-info p {
+    font-size: 20px;
+}
+
+.linkses {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.links-container {
+    display: flex;
+    gap: 10px;
+}
+
+.link {
+    border-radius: 100px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.link img {
+    width: 40px;
+    height: 40px;
+}
+
+
