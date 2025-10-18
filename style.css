@@ -258,4 +258,52 @@ footer {
     height: 40px;
 }
 
+.pers__container{
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: 200px 200px;
+    grid-template-areas:
+    "card1 card2"
+    "card3 card4"
+    "card5 card6"
+    ;
+}
+
+.pers__container__card1{
+    grid-area: card1;
+    width: 50px;
+    height: 50px;
+}
+
+.pers__container__card2{
+    grid-area: card2;
+    width: 40px;
+    height: 40px;
+}
+
+.pers__container__card3{
+    grid-area: card3;
+    width: 40px;
+    height: 40px;
+}
+
+.pers__container__card4{
+    grid-area: card4;
+    width: 40px;
+    height: 40px;
+}
+
+.pers__container__card5{
+    grid-area: card5;
+    width: 40px;
+    height: 40px;
+}
+
+.pers__container__card5{
+    grid-area: card5;
+    width: 40px;
+    height: 40px;
+}
+
 
