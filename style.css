@@ -261,49 +261,64 @@ footer {
 .pers__container{
     display: grid;
     margin: 20px;
-    grid-template-columns: 700px 700px;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
     grid-template-areas:
-    "card1 card2"
-    "card3 card4"
-    "card5 card6"
+    "menu menu menu"
+    "card1 card2 card3"
+    "card4 card5 card6"
     ;
+    gap: 14px;
 }
 
-.pers__container__card1{
+.pers__container__menu{
+    grid-area: menu;
+}
+.pers__container__card{
+   background-color: #ffffff;
+   text-align: center;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.pers__container__card img{
+    width: 200px;
+    height: 200px;
+}
+
+.menu{
+   background-color: #ffffff;
+   text-align: center;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.card1{
     grid-area: card1;
-    width: 50px;
-    height: 50px;
 }
 
-.pers__container__card2{
+.card2{
     grid-area: card2;
-    width: 40px;
-    height: 40px;
 }
 
-.pers__container__card3{
+.card3{
     grid-area: card3;
-    width: 40px;
-    height: 40px;
+    
 }
 
-.pers__container__card4{
+.card4{
     grid-area: card4;
-    width: 40px;
-    height: 40px;
+   
 }
 
-.pers__container__card5{
+.card5{
     grid-area: card5;
-    width: 40px;
-    height: 40px;
+    
 }
 
-.pers__container__card5{
-    grid-area: card5;
-    width: 40px;
-    height: 40px;
+.card6{
+    grid-area: card6;
+    
 }
 
 
