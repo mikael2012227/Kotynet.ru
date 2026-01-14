@@ -258,6 +258,15 @@ footer {
     height: 40px;
 }
 
+.pers__container__flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .pers__container{
     display: grid;
     margin: 20px;
