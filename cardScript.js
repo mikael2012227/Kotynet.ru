@@ -1,0 +1,20 @@
+const cards = {
+  1: {
+    img: "https://static.wikia.nocookie.net/kotinet/images/2/22/%D0%9B%D0%9E%D0%A2%D0%9A%D0%9E%D0%92.jpg/revision/latest?cb=20250706104828&path-prefix=ru",
+    name: "Лотков",
+    role: "Ученик",
+    desc: "Не любит учиться и носит в школу резиновую уточку",
+  },
+  2: {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIs_l_8C_C41SiydbxA5Ibwim6RcWxjK5SJQ&s",
+    name: "Кусев",
+    role: "Ученик",
+    desc: "Друг Лоткова и носит в школу резиновую лягушку",
+  },
+  3: {
+    img: "https://static.wikia.nocookie.net/kotinet/images/3/3c/%D0%9C%D0%93%D0%95%D1%82%D1%8B%D0%B3%D1%8B%D0%B4%D1%8B%D0%BA%D0%BE%D0%B2.jpg/revision/latest/scale-to-width/360?cb=20250620123046&path-prefix=ru",
+    name: "Тыгыдыков",
+    role: "Ученик",
+    desc: "Учится в одном классе с Лотковым и Кусевым, носит в школу резиновую мышку",
+  },
+};
