@@ -288,6 +288,11 @@ footer {
    text-align: center;
    border-radius: 10px;
    padding: 10px;
+   transition: transform 0.3s;
+}
+
+.pers__container__card:hover{
+    transform: scale(1.05);
 }
 
 .pers__container__card img{
