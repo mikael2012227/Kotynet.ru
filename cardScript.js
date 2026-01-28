@@ -17,4 +17,22 @@ const cards = {
     role: "Ученик",
     desc: "Учится в одном классе с Лотковым и Кусевым, носит в школу резиновую мышку",
   },
+  4: {
+    img: "https://encryphttpsted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4uVTSzmjib4HWxgXc4KdDpXhO62qI_mJSOg&s",
+    name: "Геннадий Петрович",
+    role: "Учитель, классный руководитель",
+    desc: "Учит своих учеников, не любит когда на его урок приходят не подготовленными"
+  },
+  5: {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ymoU5xqeUTbKDwMMOSF-MRMDQcznneu_KA&s",
+    name: "Котина Ивановна",
+    role: "Учитель математики",
+    desc:"учитель математики, очень любит мячики, когда ей приносят их на урок она всегда ставит пятерки"
+  },
+  6:{
+  img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWWmV_nyCzxLJuWfqybvMWHpbMlXsohOVm2Q&s",
+  name: "Валерий Полосатиков",
+  role: "Учитель Биологии",
+  desc: "Учитель биологии, его любимая фраза Бя толком ничему не учит учеников, пишет в тетрадке слово Бя"
+  }
 };
