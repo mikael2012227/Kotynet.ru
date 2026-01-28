@@ -18,7 +18,7 @@ const cards = {
     desc: "Учится в одном классе с Лотковым и Кусевым, носит в школу резиновую мышку",
   },
   4: {
-    img: "https://encryphttpsted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4uVTSzmjib4HWxgXc4KdDpXhO62qI_mJSOg&s",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4uVTSzmjib4HWxgXc4KdDpXhO62qI_mJSOg&s",
     name: "Геннадий Петрович",
     role: "Учитель, классный руководитель",
     desc: "Учит своих учеников, не любит когда на его урок приходят не подготовленными",
@@ -40,5 +40,11 @@ const cards = {
 function onClickCard(cardNumber) {
   console.log(cards[cardNumber]);
   const title = document.getElementById("pers__container__menu__text__title")
-  title.innerText = `${cards[cardNumber].name} - ${cards[cardNumber].role}` 
+  title.innerText = `${cards[cardNumber].name} - ${cards[cardNumber].role}`
+  const desc= document.getElementById("desc") 
+  desc.innerText = cards[cardNumber].desc
+  const img = document.getElementById("img")
+  img.src=cards[cardNumber].img
+  img.style.width = "200px"
+  img.style.height = "200px"
 }
