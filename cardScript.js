@@ -21,18 +21,24 @@ const cards = {
     img: "https://encryphttpsted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4uVTSzmjib4HWxgXc4KdDpXhO62qI_mJSOg&s",
     name: "Геннадий Петрович",
     role: "Учитель, классный руководитель",
-    desc: "Учит своих учеников, не любит когда на его урок приходят не подготовленными"
+    desc: "Учит своих учеников, не любит когда на его урок приходят не подготовленными",
   },
   5: {
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ymoU5xqeUTbKDwMMOSF-MRMDQcznneu_KA&s",
     name: "Котина Ивановна",
     role: "Учитель математики",
-    desc:"учитель математики, очень любит мячики, когда ей приносят их на урок она всегда ставит пятерки"
+    desc: "учитель математики, очень любит мячики, когда ей приносят их на урок она всегда ставит пятерки",
   },
-  6:{
-  img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWWmV_nyCzxLJuWfqybvMWHpbMlXsohOVm2Q&s",
-  name: "Валерий Полосатиков",
-  role: "Учитель Биологии",
-  desc: "Учитель биологии, его любимая фраза Бя толком ничему не учит учеников, пишет в тетрадке слово Бя"
-  }
+  6: {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWWmV_nyCzxLJuWfqybvMWHpbMlXsohOVm2Q&s",
+    name: "Валерий Полосатиков",
+    role: "Учитель Биологии",
+    desc: "Учитель биологии, его любимая фраза Бя толком ничему не учит учеников, пишет в тетрадке слово Бя",
+  },
 };
+
+function onClickCard(cardNumber) {
+  console.log(cards[cardNumber]);
+  const title = document.getElementById("pers__container__menu__text__title")
+  title.innerText = `${cards[cardNumber].name} - ${cards[cardNumber].role}` 
+}
