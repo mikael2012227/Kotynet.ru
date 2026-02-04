@@ -186,7 +186,6 @@ footer {
 
 .text-history {
     grid-area: content;
-
 }
 
 .history-columns img {
@@ -201,7 +200,7 @@ footer {
     display: grid;
     margin: 20px;
     grid-template-columns: 400px 700px;
-    grid-template-rows: 200px 200px;
+    grid-template-rows: px 200px;
     gap:30px;
     font-size: 35px;
     grid-template-areas:
