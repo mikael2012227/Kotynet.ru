@@ -10,10 +10,26 @@
                 width: 250px;
                 height: 250px;
             }
+
+
+            .container{
+                display: grid;
+                grid-area: img;
+                margin: 90px;
+                margin-top: 20px;
+                grid-template-columns: 400px 400px 400px;
+                grid-template-rows:  300px;
+                gap:90px;
+                font-size: 17px;
+                grid-template-areas:
+                "img img img"
+                "img img img"
+                ;
+             }
         </style>
     </head>
     <body>
-        <h1>Каталог серий</h1>
+        <h1 class="zagolovok">Каталог серий</h1>
         <button onclick="replace()">Смотреть</button>
         <script>
             function replace(){
@@ -22,32 +38,32 @@
         </script>
         <div class="container">
             <div class="card card1">
-                <p>27.06.2023</p>
+                <p>2026-02-16</p>
                 <h3>Название ролика</h3>
                 <img src="C:\Users\user\Desktop\тимоша белохвостиков.jpg">
             </div>
             <div class="card card2">
-                <p>04.01.2005</p>
+                <p>2026-01-27</p>
                 <h3>Я покорил солдатскую сопку с другом абсолютно бесплатно</h3>
                 <img src="C:\Users\user\Desktop\тимоша белохвостиков.jpg">
             </div>
             <div class="card card3">
-                <p>19.05.2012</p>
+                <p>2026-01-02</p>
                 <h3>Челлендж: просидеть неделю без интернета</h3>
                 <img src="C:\Users\user\Desktop\тимоша белохвостиков.jpg">
             </div>
             <div class="card card4">
-                <p>10.02.2026</p>
+                <p>2026-01-01</p>
                 <h3>Я спаял радио из медной проволоки</h3>
                 <img src="C:\Users\user\Desktop\тимоша белохвостиков.jpg">
             </div>
             <div class="card card5">
-                <p>01.04.2020</p>
+                <p>2025-05-27</p>
                 <h3>Разыграл прохожего на 1 апреля</h3>
                 <img src="C:\Users\user\Desktop\тимоша белохвостиков.jpg">
             </div>
             <div class="card card6">
-                <p>05.12.2025</p>
+                <p>2025-12-31</p>
                 <h3>ничего не делаю</h3>
                 <img src="C:\Users\user\Desktop\тимоша белохвостиков.jpg">
             </div>
