@@ -38,7 +38,6 @@ const cards = {
 };
 
 function onClickCard(cardNumber) {
-  console.log(cards[cardNumber]);
   const title = document.getElementById("pers__container__menu__text__title")
   title.innerText = `${cards[cardNumber].name} - ${cards[cardNumber].role}`
   const desc= document.getElementById("desc") 
@@ -48,3 +47,51 @@ function onClickCard(cardNumber) {
   img.style.width = "200px"
   img.style.height = "200px"
 }
+
+const films={
+1:{
+  date: "2026-02-03",
+  name: "ЕСЛИ БЫ КОТИКИ ХОДИЛИ В ШКОЛУ - КОТИКИ СТРОЯТ ШКОЛУ МЕЧТЫ В МАЙНКРАФТ",
+  url: "https://vkvideo.ru/video-211826325_456239439"
+},
+2:{
+  date:"2026-01-01",
+  name:"КОТИКИ В ШКОЛЕ ПОЗДРАВЛЯЮТ С НОВЫМ ГОДОМ!",
+  url:"https://vkvideo.ru/video-211826325_456239437",
+},
+3:{
+  date:"2025-12-23",
+  name:"ЕСЛИ БЫ КОТИКИ ХОДИЛИ В ШКОЛУ - ПИСЬМА ДЕДУ МОРОЗУ",
+  url:"https://vkvideo.ru/video-211826325_456239436",
+},
+4:{
+  date:"2025-11-27",
+  name:"ЕСЛИ БЫ КОТИКИ ХОДИЛИ В ШКОЛУ - НОВОГОДНИЕ СЕРИИ",
+  url:"https://vkvideo.ru/video-211826325_456239430",
+},
+5:{
+  date:"2025-11-03",
+  name:"ЕСЛИ БЫ КОТИКИ ХОДИЛИ В ШКОЛУ - ПРАНКИ НАД УЧЕНИКАМИ НА ХЭЛЛОУИН",
+  url:"https://vkvideo.ru/video-211826325_456239427",
+},
+6:{
+  date:"2025-11-23",
+  name:"ЕСЛИ БЫ КОТИКИ ХОДИЛИ В ШКОЛУ - БУМАЖКИН",
+  url:"https://vkvideo.ru/video-211826325_456239424",
+}
+}
+
+const container = document.getElementsByClassName("container")
+films.forEach((i,index)=>{console.log(i,index)})
+const div = document.createElement("div")
+div.className="card"
+const p = document.createElement("p")
+p.innerText= films[1].date
+const h3 = document.createElement("h3")
+h3.innerText = films[1].name
+const video = document.createElement("video")
+video.src = films[1].url
+div.appendChild(p)
+div.appendChild(h3)
+div.appendChild(video)
+container.appendChild(div)
