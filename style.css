@@ -9,16 +9,17 @@ body {
     color: #4a5568;
 }
 
-.zagolovok{
-    position:absolute;
+.zagolovok {
+    position: absolute;
     top: 100px;
+    left: 90px;
 }
 
 
-header{
+header {
     position: fixed;
     top: 0;
-    left:0;
+    left: 0;
     width: 100%;
     z-index: 1000;
 }
@@ -51,13 +52,14 @@ header{
     height: 80px;
 }
 
-.mobile-menu-toggle{
+.mobile-menu-toggle {
     background-color: #e76f51;
-    border:0;
+    border: 0;
 }
-.mobile-menu-toggle_hidden{
+
+.mobile-menu-toggle_hidden {
     background-color: #e76f51;
-    border:0;
+    border: 0;
     display: none;
 }
 
@@ -70,8 +72,8 @@ footer {
     border-top: 2px solid black;
     background-color: #4a5568;
     color: #ffffff;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
 }
 
 .footer-container {
@@ -112,7 +114,7 @@ footer {
     background-image: url("img/photo_2025-09-09_13-29-17.jpg");
     width: 100%;
     height: 700px;
-    
+
 }
 
 .title {
@@ -203,16 +205,16 @@ footer {
     font-size: 20px;
 }
 
-.info-kotynet{
+.info-kotynet {
     display: grid;
     margin: 20px;
     grid-template-columns: 400px 700px;
     grid-template-rows: px 200px;
-    gap:30px;
+    gap: 30px;
     font-size: 35px;
     grid-template-areas:
-    "title img"
-    "content img"
+        "title img"
+        "content img"
     ;
 }
 
@@ -268,7 +270,7 @@ footer {
     height: 40px;
 }
 
-.pers__container__flex{
+.pers__container__flex {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -277,99 +279,125 @@ footer {
     align-items: center;
 }
 
-.pers__container{
+.pers__container {
     display: grid;
     margin: 20px;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 300px 300px 300px;
     grid-template-areas:
-    "menu menu menu"
-    "card1 card2 card3"
-    "card4 card5 card6"
+        "menu menu menu"
+        "card1 card2 card3"
+        "card4 card5 card6"
     ;
     gap: 14px;
 }
 
-.pers__container__menu{
+.pers__container__menu {
     grid-area: menu;
 }
-.pers__container__card{
-   background-color: #ffffff;
-   text-align: center;
-   border-radius: 10px;
-   padding: 10px;
-   transition: transform 0.3s;
+
+.pers__container__card {
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s;
 }
 
-.pers__container__card:hover{
+.pers__container__card:hover {
     transform: scale(1.05);
 }
 
-.pers__container__card img{
+.pers__container__card img {
     width: 200px;
     height: 200px;
 }
 
-.menu{
-   background-color: #ffffff;
-   text-align: center;
-   border-radius: 10px;
-   padding: 10px;
+.menu {
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.card1{
+.card1 {
     grid-area: card1;
 }
 
-.card2{
+.card2 {
     grid-area: card2;
 }
 
-.card3{
+.card3 {
     grid-area: card3;
-    
+
 }
 
-.card4{
+.card4 {
     grid-area: card4;
-   
+
 }
 
-.card5{
+.card5 {
     grid-area: card5;
-    
+
 }
 
-.card6{
+.card6 {
     grid-area: card6;
-    
+
 }
 
- .container img {
-        width: 250px;
-        height: 250px;
-      }
+.container img {
+    width: 250px;
+    height: 250px;
+}
 
-      .card {
-        width: 250px;
-        height: 250px;
-      }
+.video_card1 {
+    width: 250px;
+    height: 250px;
+    grid-area: img1;
+}
 
-      .container {
-        display: grid;
-        grid-area: img;
-        margin: 90px;
-        margin-top: 20px;
-        grid-template-columns: 400px 400px 400px;
-        grid-template-rows: 300px;
-        gap: 90px;
-        font-size: 17px;
-        grid-template-areas:
-          "img img img"
-          "img img img";
-        height: 750px;
-        position: absolute;
-        top: 120px;
-      }
+.video_card2 {
+    width: 250px;
+    height: 250px;
+    grid-area: img2;
+}
 
+.video_card3 {
+    width: 250px;
+    height: 250px;
+    grid-area: img3;
+}
 
+.video_card4 {
+    width: 250px;
+    height: 250px;
+    grid-area: img4;
+}
+
+.video_card5 {
+    width: 250px;
+    height: 250px;
+    grid-area: img5;
+}
+
+.video_card6 {
+    width: 250px;
+    height: 250px;
+    grid-area: img6;
+}
+
+.container {
+    display: grid;
+    margin: 90px;
+    margin-top: 140px;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 350px 320px;
+    gap: 50px;
+    font-size: 17px;
+    grid-template-areas:
+        "img1 img2 img3"
+        "img4 img5 img6";
+}

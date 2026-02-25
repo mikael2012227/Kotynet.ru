@@ -5,75 +5,39 @@
   
   <body>
      <header class="navbar">
-          <div class="navbar-brand">
-              <a href="#">
-                  <img src="img/photo_2025-08-26_20-20-29.jpg" alt="Логотип Kotynet">
-              </a>
+      <div class="navbar-brand">
+          <a href="#">
+              <img src="img/photo_2025-08-26_20-20-29.jpg" alt="Логотип Kotynet">
+          </a>
+      </div>
+      <nav id="navbarMenu" class="navbar-menu">
+          <div class="navbar-center">
+              <a class="navbar-item" href="index.html#movies">Главная</a>
+              <a class="navbar-item" href="index.html#pers">Персонажи</a>
+              <a class="navbar-item" href="index2.html">Каталог серий</a>
+              <a class="navbar-item" href="index.html#channel">Телеканал Kotynet</a>
           </div>
-
-          <nav id="navbarMenu" class="navbar-menu">
-              <div class="navbar-center">
-                  <a class="navbar-item" href="#movies">Главная</a>
-                  <a class="navbar-item" href="#pers">Персонажи</a>
-                  <a class="navbar-item" href="index2.html">Каталог серий</a>
-                  <a class="navbar-item" href="#channel">Телеканал Kotynet</a>
-              </div>
-          </nav>
-          
-          <div class="navbar-action">
-              <button id="developer" >О разработчике</button>
-              <button class="mobile-menu-toggle_hidden">☰</button>
-                  
-        </div>
-              
+      </nav>
+      <div class="navbar-action">
+          <button id="developer" >О разработчике</button>
+          <button class="mobile-menu-toggle_hidden">☰</button> 
+      </div>    
     </header>
+
     <h1 class="zagolovok">Каталог серий</h1>
     <button onclick="replace()">Смотреть</button>
-    <script>
-      function replace() {
-        window.location.replace("https://vkvideo.ru/@kotiynet");
-      }
-    </script>
+    
     <div class="container">
-      <!-- <div class="card card1">
-                <p>2026-02-03</p>
-                <h3>Название ролика</h3>
-                <img src="C:\Users\user\Desktop\тимоша белохвостиков.jpg">
-            </div>
-            <div class="card card2">
-                <p>2026-01-27</p>
-                <h3>Я покорил солдатскую сопку с другом абсолютно бесплатно</h3>
-                <img src="C:\Users\user\Desktop\тимоша белохвостиков.jpg">
-            </div>
-            <div class="card card3">
-                <p>2026-01-02</p>
-                <h3>Челлендж: просидеть неделю без интернета</h3>
-                <img src="C:\Users\user\Desktop\тимоша белохвостиков.jpg">
-            </div>
-            <div class="card card4">
-                <p>2026-01-01</p>
-                <h3>Я спаял радио из медной проволоки</h3>
-                <img src="C:\Users\user\Desktop\тимоша белохвостиков.jpg">
-            </div>
-            <div class="card card5">
-                <p>2025-05-27</p>
-                <h3>Разыграл прохожего на 1 апреля</h3>
-                <img src="C:\Users\user\Desktop\тимоша белохвостиков.jpg">
-            </div>
-            <div class="card card6">
-                <p>2025-12-31</p>
-                <h3>ничего не делаю</h3>
-                <img src="C:\Users\user\Desktop\тимоша белохвостиков.jpg">
-            </div> -->
     </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="heh">
+          <img src="img/photo_2025-08-26_20-20-29.jpg">
+          <p>Этот сайт является фан блогом и создан исключительно в некоммерческих целях для обмена впечатлениями о шоу kotynet.</br> Все оригинальные материалы принадлежат их автору.</p>
+        </div>
+      </div>
+    </footer>
     <script src="cardScript.js"></script>
-        <footer>
-          <div class="footer-container">
-            <div class="heh">
-              <img src="img/photo_2025-08-26_20-20-29.jpg">
-             <p>Этот сайт является фан блогом и создан исключительно в некоммерческих целях для обмена впечатлениями о шоу kotynet.</br> Все оригинальные материалы принадлежат их автору.</p>
-            </div>
-          </div>
-        </footer>
   </body>
 </html>
