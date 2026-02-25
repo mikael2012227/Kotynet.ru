@@ -57,12 +57,12 @@ const films = {
   2: {
     date: "2026-01-01",
     name: "КОТИКИ В ШКОЛЕ ПОЗДРАВЛЯЮТ С НОВЫМ ГОДОМ!",
-    url: "https://vkvideo.ru/video-211826325_456239437",
+    url: "https://vkvideo.ru/video_ext.php?oid=-211826325&id=456239437&hash=e46e7090d9c6af60&hd=3",
   },
   3: {
     date: "2025-12-23",
     name: "ЕСЛИ БЫ КОТИКИ ХОДИЛИ В ШКОЛУ - ПИСЬМА ДЕДУ МОРОЗУ",
-    url: "https://vkvideo.ru/video-211826325_456239436",
+    url: "https://vkvideo.ru/video_ext.php?oid=-211826325&id=456239436&hash=9c125894f91322d8&hd=3",
   },
   4: {
     date: "2025-11-27",

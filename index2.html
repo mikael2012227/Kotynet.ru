@@ -1,32 +1,32 @@
 <html>
   <head>
-    <style>
-      .container img {
-        width: 250px;
-        height: 250px;
-      }
-
-      .card {
-        width: 250px;
-        height: 250px;
-      }
-
-      .container {
-        display: grid;
-        grid-area: img;
-        margin: 90px;
-        margin-top: 20px;
-        grid-template-columns: 400px 400px 400px;
-        grid-template-rows: 300px;
-        gap: 90px;
-        font-size: 17px;
-        grid-template-areas:
-          "img img img"
-          "img img img";
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
+  
   <body>
+     <header class="navbar">
+          <div class="navbar-brand">
+              <a href="#">
+                  <img src="img/photo_2025-08-26_20-20-29.jpg" alt="Логотип Kotynet">
+              </a>
+          </div>
+
+          <nav id="navbarMenu" class="navbar-menu">
+              <div class="navbar-center">
+                  <a class="navbar-item" href="#movies">Главная</a>
+                  <a class="navbar-item" href="#pers">Персонажи</a>
+                  <a class="navbar-item" href="index2.html">Каталог серий</a>
+                  <a class="navbar-item" href="#channel">Телеканал Kotynet</a>
+              </div>
+          </nav>
+          
+          <div class="navbar-action">
+              <button id="developer" >О разработчике</button>
+              <button class="mobile-menu-toggle_hidden">☰</button>
+                  
+        </div>
+              
+    </header>
     <h1 class="zagolovok">Каталог серий</h1>
     <button onclick="replace()">Смотреть</button>
     <script>
@@ -67,5 +67,13 @@
             </div> -->
     </div>
     <script src="cardScript.js"></script>
+        <footer>
+          <div class="footer-container">
+            <div class="heh">
+              <img src="img/photo_2025-08-26_20-20-29.jpg">
+             <p>Этот сайт является фан блогом и создан исключительно в некоммерческих целях для обмена впечатлениями о шоу kotynet.</br> Все оригинальные материалы принадлежат их автору.</p>
+            </div>
+          </div>
+        </footer>
   </body>
 </html>
