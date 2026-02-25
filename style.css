@@ -401,3 +401,10 @@ footer {
         "img1 img2 img3"
         "img4 img5 img6";
 }
+
+.wallpapers{
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    background-color:white;
+}

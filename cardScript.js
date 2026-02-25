@@ -84,7 +84,7 @@ const films = {
 const container = document.getElementsByClassName("container");
 for (let i = 1; i < 7; i += 1) {
   const div = document.createElement("div");
-  div.className = `video_card${i}`;
+  div.className = `wallpapers video_card${i}`;
   const p = document.createElement("p");
   p.innerText = films[i].date;
   const h3 = document.createElement("h3");
