@@ -67,17 +67,17 @@ const films = {
   4: {
     date: "2025-11-27",
     name: "ЕСЛИ БЫ КОТИКИ ХОДИЛИ В ШКОЛУ - НОВОГОДНИЕ СЕРИИ",
-    url: "https://vkvideo.ru/video-211826325_456239430",
+    url: "https://vkvideo.ru/video_ext.php?oid=-211826325&id=456239430&hash=39e7371c8bab62bc&hd=4",
   },
   5: {
     date: "2025-11-03",
     name: "ЕСЛИ БЫ КОТИКИ ХОДИЛИ В ШКОЛУ - ПРАНКИ НАД УЧЕНИКАМИ НА ХЭЛЛОУИН",
-    url: "https://vkvideo.ru/video-211826325_456239427",
+    url: "https://vkvideo.ru/video_ext.php?oid=-211826325&id=456239427&hash=0bc27fe214d35981&hd=3",
   },
   6: {
     date: "2025-11-23",
     name: "ЕСЛИ БЫ КОТИКИ ХОДИЛИ В ШКОЛУ - БУМАЖКИН",
-    url: "https://vkvideo.ru/video-211826325_456239424",
+    url: "https://vkvideo.ru/video_ext.php?oid=-211826325&id=456239424&hash=a244461d758bc017&hd=4",
   },
 };
 

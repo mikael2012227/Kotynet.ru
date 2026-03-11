@@ -357,36 +357,61 @@ footer {
     width: 250px;
     height: 250px;
     grid-area: img1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .video_card2 {
     width: 250px;
     height: 250px;
     grid-area: img2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .video_card3 {
     width: 250px;
     height: 250px;
     grid-area: img3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .video_card4 {
     width: 250px;
     height: 250px;
     grid-area: img4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .video_card5 {
     width: 250px;
     height: 250px;
     grid-area: img5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .video_card6 {
     width: 250px;
     height: 250px;
     grid-area: img6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container {
@@ -407,4 +432,8 @@ footer {
     height: 350px;
     border-radius: 20px;
     background-color:white;
+}
+
+.github{
+    text-decoration: none;
 }
