@@ -100,3 +100,7 @@ for (let i = 1; i < 7; i += 1) {
 function replace() {
   window.location.replace("https://vkvideo.ru/@kotiynet");
 }
+
+function replaceAboutDeveloper() {
+  window.location.replace("index3.html");
+}
